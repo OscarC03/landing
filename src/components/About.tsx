@@ -74,6 +74,20 @@ export default function About() {
                 <p className="text-zinc-500 text-xs">{t('about.company_sub')}</p>
               </div>
             </div>
+
+            {/* Education card */}
+            <div className="col-span-3 rounded-2xl bg-zinc-800/60 border border-zinc-700/50 p-4 flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-fuchsia-600/20 flex items-center justify-center flex-shrink-0">
+                <svg width="18" height="18" fill="none" viewBox="0 0 24 24" className="text-fuchsia-400">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M6 12v5c3.33 2 8.67 2 12 0v-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <p className="text-white text-sm font-medium">{t('about.education')}</p>
+                <p className="text-zinc-500 text-xs">{t('about.education_sub')}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
