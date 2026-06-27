@@ -90,11 +90,13 @@ const it = {
   'hobbies.tag': 'Fuori dal lavoro',
   'hobbies.title': 'Hobby & Interessi',
 
-  'hobbies.anpas.label': 'Volontariato',
+  'hobbies.anpas.label': 'Volontariato ANPAS',
   'hobbies.anpas.title': 'Croce Bianca Garessio',
-  'hobbies.anpas.subtitle': 'Soccorritore volontario ANPAS',
+  'hobbies.anpas.subtitle': 'Soccorritore · Istruttore IVS 118',
   'hobbies.anpas.desc':
-    'Faccio parte della Croce Bianca di Garessio, associazione di pubblica assistenza affiliata ANPAS. Come soccorritore volontario partecipo ai turni sul territorio e alle gare interregionali di soccorso sanitario.',
+    'Faccio parte della Croce Bianca di Garessio, associazione di pubblica assistenza affiliata ANPAS. Sono soccorritore volontario e Istruttore IVS 118 certificato: formo nuovi volontari soccorritori e partecipo alle gare interregionali di soccorso sanitario.',
+  'hobbies.anpas.ivs': 'Istruttore IVS 118',
+  'hobbies.anpas.ivs_desc': 'Certificazione ANPAS che abilita alla formazione di nuovi soccorritori volontari nel sistema 118',
   'hobbies.anpas.award': 'Miglior Team Leader',
   'hobbies.anpas.award_event': 'Asti Rescue Game 2025',
   'hobbies.anpas.results_title': 'Risultati in gara',

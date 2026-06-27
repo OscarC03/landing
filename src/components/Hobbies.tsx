@@ -102,14 +102,25 @@ export default function Hobbies() {
                 </div>
               </div>
 
-              {/* Award badge */}
-              <div className="flex-shrink-0 flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-500/15 border border-amber-500/30">
-                <TrophyIcon />
-                <div>
-                  <p className="text-amber-300 text-xs font-semibold leading-tight">
-                    {t('hobbies.anpas.award')}
-                  </p>
-                  <p className="text-amber-500/70 text-xs">{t('hobbies.anpas.award_event')}</p>
+              {/* Badges */}
+              <div className="flex flex-col gap-2">
+                {/* IVS badge */}
+                <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-red-500/15 border border-red-500/30">
+                  <svg width="14" height="14" fill="none" viewBox="0 0 24 24" className="text-red-400 flex-shrink-0">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
+                  </svg>
+                  <div>
+                    <p className="text-red-300 text-xs font-semibold leading-tight">{t('hobbies.anpas.ivs')}</p>
+                    <p className="text-red-500/70 text-xs">{t('hobbies.anpas.ivs_desc')}</p>
+                  </div>
+                </div>
+                {/* Award badge */}
+                <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-500/15 border border-amber-500/30">
+                  <TrophyIcon />
+                  <div>
+                    <p className="text-amber-300 text-xs font-semibold leading-tight">{t('hobbies.anpas.award')}</p>
+                    <p className="text-amber-500/70 text-xs">{t('hobbies.anpas.award_event')}</p>
+                  </div>
                 </div>
               </div>
             </div>

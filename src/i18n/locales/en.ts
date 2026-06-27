@@ -90,11 +90,13 @@ const en = {
   'hobbies.tag': 'Outside of work',
   'hobbies.title': 'Hobbies & Interests',
 
-  'hobbies.anpas.label': 'Volunteering',
+  'hobbies.anpas.label': 'ANPAS Volunteering',
   'hobbies.anpas.title': 'Croce Bianca Garessio',
-  'hobbies.anpas.subtitle': 'ANPAS volunteer first responder',
+  'hobbies.anpas.subtitle': 'First Responder · IVS 118 Instructor',
   'hobbies.anpas.desc':
-    "I'm part of the Croce Bianca of Garessio, a public aid association affiliated with ANPAS. As a volunteer first responder I participate in local shifts and interregional emergency rescue competitions.",
+    "I'm part of the Croce Bianca of Garessio, a public aid association affiliated with ANPAS. I'm a volunteer first responder and certified IVS 118 Instructor: I train new volunteer rescuers and compete in interregional emergency rescue competitions.",
+  'hobbies.anpas.ivs': 'IVS 118 Instructor',
+  'hobbies.anpas.ivs_desc': 'ANPAS certification enabling the training of new volunteer rescuers within the 118 emergency system',
   'hobbies.anpas.award': 'Best Team Leader',
   'hobbies.anpas.award_event': 'Asti Rescue Game 2025',
   'hobbies.anpas.results_title': 'Competition results',
