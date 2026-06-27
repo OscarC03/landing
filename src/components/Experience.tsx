@@ -11,7 +11,7 @@ export default function Experience() {
       period: t('exp.job1.period'),
       location: t('exp.job1.location'),
       desc: t('exp.job1.desc'),
-      tags: ['C#', '.NET', 'React', 'TypeScript', 'Dynamics 365'],
+      tags: ['AL', 'Business Central', 'C#', '.NET', 'React', 'TypeScript', 'REST API', 'SQL'],
       current: true,
     },
     {

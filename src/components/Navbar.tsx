@@ -8,6 +8,7 @@ export default function Navbar() {
     { label: t('nav.about'), href: '#about' },
     { label: t('nav.skills'), href: '#skills' },
     { label: t('nav.experience'), href: '#experience' },
+    { label: t('nav.bc'), href: '#bc' },
     { label: t('nav.projects'), href: '#projects' },
     { label: t('nav.hobbies'), href: '#hobbies' },
     { label: t('nav.contact'), href: '#contact' },
@@ -19,7 +20,7 @@ export default function Navbar() {
         Oscar<span className="text-[#10B981]">.</span>
       </span>
 
-      <ul className="hidden md:flex gap-7">
+      <ul className="hidden md:flex gap-6">
         {links.map(l => (
           <li key={l.href}>
             <a

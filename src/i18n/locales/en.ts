@@ -3,6 +3,7 @@ const en = {
   'nav.about': 'About',
   'nav.skills': 'Skills',
   'nav.experience': 'Experience',
+  'nav.bc': 'BC',
   'nav.projects': 'Projects',
   'nav.hobbies': 'Hobbies',
   'nav.contact': 'Contact',
@@ -11,23 +12,23 @@ const en = {
   // Hero
   'hero.badge': 'Available for new projects',
   'hero.greeting': "Hi, I'm",
-  'hero.role': 'Front-end · Mobile · Back-end Developer',
+  'hero.role': 'Software Engineer · ERP & Full-Stack Development',
   'hero.location': 'Piedmont, Italy',
   'hero.description':
-    'Software Engineer at EOS Solutions Group. I build custom web and mobile applications for enterprise clients within the Microsoft Dynamics 365 ecosystem. Day-to-day stack: React, TypeScript, C#, .NET.',
+    'I build enterprise software at EOS Solutions Group, working on So Smart — a cloud ERP built on Microsoft Dynamics 365 Business Central. I also develop REST APIs, integrations and web applications using React, TypeScript, Next.js and Node.js.',
   'hero.cta_projects': 'See my projects',
   'hero.cta_contact': 'Get in touch',
   'hero.scroll': 'Scroll',
 
   // About
   'about.tag': 'About',
-  'about.title': 'Based in Piedmont, building software since 2017',
+  'about.title': 'Enterprise software engineer based in Piedmont',
   'about.p1':
-    "My name is Oscar Cristaudo. I'm from Carmagnola (TO) and live between Garessio and Sant'Albano Stura, in the province of Cuneo.",
+    "I'm Oscar Cristaudo, a Software Engineer at EOS Solutions Group in Sant'Albano Stura (CN). I work on So Smart, a cloud ERP product built on Microsoft Dynamics 365 Business Central.",
   'about.p2':
-    'I learned to code at IIS G. Vallauri in Fossano — one of the most technical IT schools in Piedmont — and graduated in 2022.',
+    'My day-to-day work covers AL development, Business Central customization, REST API design, system integrations and performance optimization.',
   'about.p3':
-    'I now work at EOS Solutions Group, building web and mobile applications for SME clients on top of Microsoft Dynamics 365.',
+    'Outside of ERP work, I build full-stack web applications using React, TypeScript, Next.js and Node.js.',
   'about.cta': "Let's talk",
   'about.stat_exp': '8+',
   'about.stat_exp_label': 'Years coding',
@@ -38,7 +39,7 @@ const en = {
   'about.location_name': "Garessio · Sant'Albano Stura, CN",
   'about.location_sub': 'Piedmont, Italy · Born in Carmagnola (TO)',
   'about.company': 'EOS Solutions Group · Microsoft Partner',
-  'about.company_sub': 'Dynamics 365 · Web & Mobile Development',
+  'about.company_sub': 'So Smart ERP · Dynamics 365 Business Central',
   'about.education': 'IIS G. Vallauri · Fossano (CN)',
   'about.education_sub': 'IT Technical Diploma · 2017 – 2022',
 
@@ -51,26 +52,46 @@ const en = {
   'exp.job1.period': '2023 – Present',
   'exp.job1.location': "Sant'Albano Stura, CN",
   'exp.job1.desc':
-    'Building custom web and mobile applications for SME clients within the Microsoft Dynamics 365 ecosystem. Main stack: C#, .NET, React, TypeScript.',
+    'Working on So Smart, a cloud ERP solution built on Microsoft Dynamics 365 Business Central. Responsibilities include AL development, Business Central extension customization, REST API design, system integrations, performance optimization and technical documentation. Also building full-stack web applications for clients using React, TypeScript and Node.js.',
   'exp.job2.role': 'Developer',
   'exp.job2.company': 'EOS Online SPA',
   'exp.job2.period': '2022 – 2023',
   'exp.job2.location': 'Cuneo, CN',
   'exp.job2.desc':
-    'Software development for enterprise clients. First professional role after graduating, within the EOS Solutions Group.',
+    'Software development for enterprise clients within the EOS Solutions Group. First professional role after graduating.',
   'exp.edu.role': 'IT Technical Diploma',
   'exp.edu.company': 'IIS G. Vallauri',
   'exp.edu.period': '2017 – 2022',
   'exp.edu.location': 'Fossano, CN',
   'exp.edu.desc':
-    "Five-year program in computer science and telecommunications. Covered programming, networking, systems, and software development.",
+    'Five-year program in computer science and telecommunications. Covered programming, networking, systems and software development.',
 
   // Skills
   'skills.tag': 'Expertise',
   'skills.title': 'Tech stack',
-  'skills.frontend': 'Frontend & Mobile',
+  'skills.erp': 'ERP & Business Central',
+  'skills.frontend': 'Frontend',
   'skills.backend': 'Backend',
+  'skills.databases': 'Databases',
+  'skills.devops': 'DevOps & Cloud',
   'skills.tools': 'Tools',
+
+  // Business Central
+  'bc.tag': 'Microsoft Dynamics 365',
+  'bc.title': 'Business Central Expertise',
+  'bc.intro': 'Day-to-day work on a production cloud ERP used by enterprise clients.',
+  'bc.al.title': 'AL Development',
+  'bc.al.desc': 'Writing AL code for Business Central extensions — from UI customizations to complex business logic and event subscribers.',
+  'bc.api.title': 'APIs & OData',
+  'bc.api.desc': 'Designing and consuming REST APIs and OData web services to connect Business Central with external systems.',
+  'bc.ext.title': 'Extensions',
+  'bc.ext.desc': 'Building and publishing Business Central extensions following Microsoft best practices and AppSource standards.',
+  'bc.int.title': 'Integrations',
+  'bc.int.desc': 'Integrating Business Central with third-party services, external databases and custom web applications.',
+  'bc.perf.title': 'Performance Optimization',
+  'bc.perf.desc': 'Profiling and optimizing slow AL code, SQL queries, report execution and data processing pipelines.',
+  'bc.report.title': 'Report Development',
+  'bc.report.desc': 'Creating and customizing Business Central reports using RDLC and Word layouts for client-specific requirements.',
 
   // Projects
   'projects.tag': 'Work',
@@ -80,15 +101,15 @@ const en = {
   'projects.type_mobile': 'mobile app',
   'projects.p1.title': 'Personal portfolio',
   'projects.p1.desc':
-    'This site. React, TypeScript, Tailwind CSS. Deployed to GitHub Pages with a CI/CD workflow. Supports Italian and English.',
+    'This site. Built with React, TypeScript and Tailwind CSS. Deployed to GitHub Pages via a GitHub Actions CI/CD workflow. Supports Italian and English with react-i18next.',
   'projects.p1.stat': 'this site',
   'projects.p2.title': 'rsa-schedule',
   'projects.p2.desc':
-    'Staff scheduling app for a residential care facility. Full-stack: Next.js front-end, PHP REST back-end, MySQL database.',
+    'Shift scheduling tool for a residential care facility. Staff managers can plan and visualize shifts across departments. Next.js front-end, PHP REST API, MySQL database.',
   'projects.p2.stat': '72 commits',
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
-    'Hybrid mobile app built with Apache Cordova and a Java back-end. Tracks daily tasks and personal routines.',
+    'Personal productivity app packaged as a hybrid Android app with Apache Cordova. Manages tasks, routines and habits. Java REST back-end, web front-end.',
   'projects.p3.stat': '62 commits',
 
   // Hobbies
@@ -99,7 +120,7 @@ const en = {
   'hobbies.anpas.title': 'Croce Bianca Garessio',
   'hobbies.anpas.subtitle': 'First Responder · IVS 118 Instructor',
   'hobbies.anpas.desc':
-    "Volunteer first responder at Croce Bianca Garessio, affiliated with ANPAS. Certified IVS 118 Instructor: I train new volunteers in emergency response protocols and represent the team at interregional rescue competitions.",
+    'Volunteer first responder at Croce Bianca Garessio, affiliated with ANPAS. Certified IVS 118 Instructor: I train new volunteers in emergency response protocols and represent the team at interregional rescue competitions.',
   'hobbies.anpas.ivs': 'IVS 118 Instructor',
   'hobbies.anpas.ivs_desc': 'ANPAS certification for training new volunteer rescuers in the 118 emergency system',
   'hobbies.anpas.award': 'Best Team Leader',
@@ -112,19 +133,16 @@ const en = {
 
   'hobbies.photo.label': 'Creativity',
   'hobbies.photo.title': 'Photography & Video',
-  'hobbies.photo.desc':
-    'Shooting landscapes, portraits, and everyday moments in the Cuneo valleys and beyond.',
+  'hobbies.photo.desc': 'Shooting landscapes, portraits and everyday moments in the Cuneo valleys and beyond.',
 
   'hobbies.travel.label': 'Exploration',
   'hobbies.travel.title': 'Travel',
-  'hobbies.travel.desc':
-    'Discovering new places and cultures. Piedmont makes a good base for trips across Italy and Europe.',
+  'hobbies.travel.desc': "Discovering new places and cultures. Piedmont makes a good base for trips across Italy and Europe.",
 
   // Contact
   'contact.tag': 'Contact',
   'contact.title': "Let's talk",
-  'contact.description':
-    'Open to project inquiries, collaborations, and new opportunities. Pick a channel below.',
+  'contact.description': 'Open to project inquiries, collaborations and new opportunities. Pick a channel below.',
 
   // Footer
   'footer.location': 'Garessio, Cuneo — Italy',

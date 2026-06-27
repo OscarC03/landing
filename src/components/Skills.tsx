@@ -5,16 +5,28 @@ export default function Skills() {
 
   const categories = [
     {
+      title: t('skills.erp'),
+      skills: ['AL Language', 'Business Central', 'Dynamics 365', 'OData / Web Services', 'Extensions', 'Report Development'],
+    },
+    {
       title: t('skills.frontend'),
       skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'JavaScript', 'HTML / CSS'],
     },
     {
       title: t('skills.backend'),
-      skills: ['C#', '.NET', 'Java', 'Node.js', 'REST API', 'Microsoft Dynamics 365'],
+      skills: ['C#', '.NET', 'Node.js', 'REST API', 'Java', 'SQL'],
+    },
+    {
+      title: t('skills.databases'),
+      skills: ['SQL Server', 'MySQL', 'T-SQL', 'Query Optimization', 'Data Modeling'],
+    },
+    {
+      title: t('skills.devops'),
+      skills: ['Azure DevOps', 'Git / GitHub', 'Docker', 'Azure', 'CI/CD Pipelines'],
     },
     {
       title: t('skills.tools'),
-      skills: ['Git / GitHub', 'Azure', 'Docker', 'VS Code', 'Figma', 'Linux'],
+      skills: ['VS Code', 'Postman', 'Figma', 'Linux', 'Technical Documentation'],
     },
   ]
 
@@ -28,7 +40,7 @@ export default function Skills() {
           {t('skills.title')}
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           {categories.map(cat => (
             <div
               key={cat.title}
