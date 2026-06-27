@@ -3,6 +3,7 @@ const en = {
   'nav.about': 'About',
   'nav.skills': 'Skills',
   'nav.experience': 'Experience',
+  'nav.bc': 'BC',
   'nav.projects': 'Projects',
   'nav.hobbies': 'Hobbies',
   'nav.contact': 'Contact',
@@ -11,23 +12,23 @@ const en = {
   // Hero
   'hero.badge': 'Available for new projects',
   'hero.greeting': "Hi, I'm",
-  'hero.role': 'Front-end · Mobile · Back-end Developer',
+  'hero.role': 'Software Engineer · ERP & Full-Stack Development',
   'hero.location': 'Piedmont, Italy',
   'hero.description':
-    'Software Engineer with years of experience building scalable web and mobile applications. React-TypeScript lover, C# addict. Part of the EOS Solutions Group team.',
+    'I build enterprise software at EOS Solutions Group, working on So Smart — a cloud ERP built on Microsoft Dynamics 365 Business Central. I also develop REST APIs, integrations and web applications using React, TypeScript, Next.js and Node.js.',
   'hero.cta_projects': 'See my projects',
   'hero.cta_contact': 'Get in touch',
   'hero.scroll': 'Scroll',
 
   // About
-  'about.tag': 'About me',
-  'about.title': 'A Piedmontese developer with a passion for code',
+  'about.tag': 'About',
+  'about.title': 'Enterprise software engineer based in Piedmont',
   'about.p1':
-    "My name is Oscar Cristaudo, born in Carmagnola (TO) and living between Garessio and Sant'Albano Stura, in the province of Cuneo — in the heart of Piedmont, Italy.",
+    "I'm Oscar Cristaudo, a Software Engineer at EOS Solutions Group in Sant'Albano Stura (CN). I work on So Smart, a cloud ERP product built on Microsoft Dynamics 365 Business Central.",
   'about.p2':
-    'I started coding at IIS G. Vallauri in Fossano, one of the most renowned technical IT schools in Piedmont, where I graduated in 2022.',
+    'My day-to-day work covers AL development, Business Central customization, REST API design, system integrations and performance optimization.',
   'about.p3':
-    'I now work as a Software Engineer at EOS Solutions Group, a world leader in Microsoft Dynamics 365 solutions, building custom web and mobile applications for SMEs.',
+    'Outside of ERP work, I build full-stack web applications using React, TypeScript, Next.js and Node.js.',
   'about.cta': "Let's talk",
   'about.stat_exp': '8+',
   'about.stat_exp_label': 'Years coding',
@@ -38,7 +39,7 @@ const en = {
   'about.location_name': "Garessio · Sant'Albano Stura, CN",
   'about.location_sub': 'Piedmont, Italy · Born in Carmagnola (TO)',
   'about.company': 'EOS Solutions Group · Microsoft Partner',
-  'about.company_sub': 'Dynamics 365 · Web & Mobile Development',
+  'about.company_sub': 'So Smart ERP · Dynamics 365 Business Central',
   'about.education': 'IIS G. Vallauri · Fossano (CN)',
   'about.education_sub': 'IT Technical Diploma · 2017 – 2022',
 
@@ -51,42 +52,65 @@ const en = {
   'exp.job1.period': '2023 – Present',
   'exp.job1.location': "Sant'Albano Stura, CN",
   'exp.job1.desc':
-    'Building custom web and mobile applications for SME clients within the Microsoft Dynamics 365 ecosystem. Main stack: C#, .NET, React, TypeScript.',
+    'I work on So Smart, a cloud ERP built on Microsoft Dynamics 365 Business Central. Day to day I write AL extensions — table and page customizations, codeunits, event subscribers — and design REST APIs and OData endpoints that connect Business Central with external systems. I also profile and fix slow AL code and SQL queries, write technical documentation, and build full-stack web applications for clients using React, TypeScript and Node.js.',
   'exp.job2.role': 'Developer',
   'exp.job2.company': 'EOS Online SPA',
   'exp.job2.period': '2022 – 2023',
   'exp.job2.location': 'Cuneo, CN',
   'exp.job2.desc':
-    'Software development for enterprise clients. First professional role right after graduating, within the EOS Solutions Group orbit.',
+    'Software development for enterprise clients within the EOS Solutions Group. First professional role after graduating.',
   'exp.edu.role': 'IT Technical Diploma',
   'exp.edu.company': 'IIS G. Vallauri',
   'exp.edu.period': '2017 – 2022',
   'exp.edu.location': 'Fossano, CN',
   'exp.edu.desc':
-    "Five-year course in computer science and telecommunications at one of Piedmont's most renowned technical institutes. Solid foundations in programming, networking, systems and software development.",
+    'Five-year program in computer science and telecommunications. Covered programming, networking, systems and software development.',
 
   // Skills
   'skills.tag': 'Expertise',
   'skills.title': 'Tech stack',
-  'skills.frontend': 'Frontend & Mobile',
+  'skills.erp': 'ERP & Business Central',
+  'skills.frontend': 'Frontend',
   'skills.backend': 'Backend',
+  'skills.databases': 'Databases',
+  'skills.devops': 'DevOps & Cloud',
   'skills.tools': 'Tools',
+
+  // Business Central
+  'bc.tag': 'Microsoft Dynamics 365',
+  'bc.title': 'Business Central Expertise',
+  'bc.intro': 'Day-to-day work on a production cloud ERP used by enterprise clients.',
+  'bc.al.title': 'AL Development',
+  'bc.al.desc': 'Writing AL extensions for Business Central — table and page extensions, codeunits, report layouts and event subscribers for complex business logic.',
+  'bc.api.title': 'APIs & OData',
+  'bc.api.desc': 'Designing custom API pages, bound and unbound actions, and consuming OData web services to connect Business Central with external systems.',
+  'bc.ext.title': 'Extensions',
+  'bc.ext.desc': "Building Business Central extensions following Microsoft's extension development model — object naming conventions, dependency management and clean separation from base app objects.",
+  'bc.int.title': 'Integrations',
+  'bc.int.desc': 'Integrating Business Central with third-party services, external databases and custom web applications.',
+  'bc.perf.title': 'Performance Optimization',
+  'bc.perf.desc': 'Profiling and optimizing slow AL code, SQL queries, report execution and data processing pipelines.',
+  'bc.report.title': 'Report Development',
+  'bc.report.desc': 'Creating and customizing Business Central reports using RDLC and Word layouts for client-specific requirements.',
 
   // Projects
   'projects.tag': 'Work',
   'projects.title': 'Selected projects',
   'projects.open': 'Open',
+  'projects.featured': 'Featured',
+  'projects.type_web': 'web app',
+  'projects.type_mobile': 'mobile app',
   'projects.p1.title': 'Personal portfolio',
   'projects.p1.desc':
-    'This site. Built with React, TypeScript and Tailwind CSS. Dark design with IT/EN language switching.',
+    'This site. Built with React, TypeScript and Tailwind CSS. Deployed to GitHub Pages via a GitHub Actions CI/CD workflow. Supports Italian and English with react-i18next.',
   'projects.p1.stat': 'this site',
   'projects.p2.title': 'rsa-schedule',
   'projects.p2.desc':
-    'Full-stack scheduling app built with Next.js, TypeScript and PHP. Complete context documentation.',
+    'Shift scheduling tool for a residential care facility. The main challenge was modeling recurring weekly templates against one-off overrides and holiday exceptions. Next.js front-end, PHP REST API, MySQL database.',
   'projects.p2.stat': '72 commits',
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
-    'Hybrid mobile app (Apache Cordova) with Java back-end and web front-end. Manages daily tasks and routines.',
+    'An early personal project — a hybrid Android app built with Apache Cordova for tracking tasks, routines and habits. Java REST back-end, web front-end. Shows where I started before moving to modern stacks.',
   'projects.p3.stat': '62 commits',
 
   // Hobbies
@@ -97,9 +121,9 @@ const en = {
   'hobbies.anpas.title': 'Croce Bianca Garessio',
   'hobbies.anpas.subtitle': 'First Responder · IVS 118 Instructor',
   'hobbies.anpas.desc':
-    "I'm part of the Croce Bianca of Garessio, a public aid association affiliated with ANPAS. I'm a volunteer first responder and certified IVS 118 Instructor: I train new volunteer rescuers and compete in interregional emergency rescue competitions.",
+    'Volunteer first responder at Croce Bianca Garessio, affiliated with ANPAS. Certified IVS 118 Instructor: I train new volunteers in emergency response protocols and represent the team at interregional rescue competitions.',
   'hobbies.anpas.ivs': 'IVS 118 Instructor',
-  'hobbies.anpas.ivs_desc': 'ANPAS certification enabling the training of new volunteer rescuers within the 118 emergency system',
+  'hobbies.anpas.ivs_desc': 'ANPAS certification for training new volunteer rescuers in the 118 emergency system',
   'hobbies.anpas.award': 'Best Team Leader',
   'hobbies.anpas.award_event': 'Asti Rescue Game 2025',
   'hobbies.anpas.results_title': 'Competition results',
@@ -110,19 +134,16 @@ const en = {
 
   'hobbies.photo.label': 'Creativity',
   'hobbies.photo.title': 'Photography & Video',
-  'hobbies.photo.desc':
-    'Capturing moments, landscapes and stories through photography and video. From the valleys of Cuneo to digital content creation.',
+  'hobbies.photo.desc': 'Shooting landscapes, portraits and everyday moments in the Cuneo valleys and beyond.',
 
   'hobbies.travel.label': 'Exploration',
   'hobbies.travel.title': 'Travel',
-  'hobbies.travel.desc':
-    'Exploring new places, cultures and traditions. Piedmont is a perfect base for adventures across Italy and Europe.',
+  'hobbies.travel.desc': "Discovering new places and cultures. Piedmont makes a good base for trips across Italy and Europe.",
 
   // Contact
   'contact.tag': 'Contact',
   'contact.title': "Let's talk",
-  'contact.description':
-    "Have a project in mind, a collaboration to propose, or just want to chat? Here's how to reach me.",
+  'contact.description': 'Open to project inquiries, collaborations and new opportunities. Pick a channel below.',
 
   // Footer
   'footer.location': 'Garessio, Cuneo — Italy',
