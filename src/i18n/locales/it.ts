@@ -52,7 +52,7 @@ const it = {
   'exp.job1.period': '2023 – Presente',
   'exp.job1.location': "Sant'Albano Stura, CN",
   'exp.job1.desc':
-    "Lavoro su So Smart, un ERP cloud basato su Microsoft Dynamics 365 Business Central. Mi occupo di sviluppo AL, personalizzazione di Business Central, progettazione di API REST, integrazioni, ottimizzazione delle performance e documentazione tecnica. Sviluppo anche applicazioni web full-stack per i clienti con React, TypeScript e Node.js.",
+    "Lavoro su So Smart, un ERP cloud basato su Microsoft Dynamics 365 Business Central. Quotidianamente scrivo estensioni AL — table e page extension, codeunit, event subscriber — e progetto API REST e endpoint OData per collegare Business Central a sistemi esterni. Profilo e risolvo codice AL lento e query SQL, scrivo documentazione tecnica e sviluppo applicazioni web full-stack per i clienti con React, TypeScript e Node.js.",
   'exp.job2.role': 'Developer',
   'exp.job2.company': 'EOS Online SPA',
   'exp.job2.period': '2022 – 2023',
@@ -81,11 +81,11 @@ const it = {
   'bc.title': 'Business Central',
   'bc.intro': "Lavoro quotidiano su un ERP cloud in produzione usato da clienti enterprise.",
   'bc.al.title': 'Sviluppo AL',
-  'bc.al.desc': "Scrittura di codice AL per estensioni Business Central — dalla personalizzazione dell'UI a logiche di business complesse e event subscriber.",
+  'bc.al.desc': "Scrittura di estensioni AL per Business Central — table e page extension, codeunit, layout di report ed event subscriber per logiche di business complesse.",
   'bc.api.title': 'API & OData',
-  'bc.api.desc': "Progettazione e consumo di API REST e web service OData per connettere Business Central con sistemi esterni.",
+  'bc.api.desc': "Progettazione di API page personalizzate, bound e unbound action, e consumo di web service OData per connettere Business Central con sistemi esterni.",
   'bc.ext.title': 'Estensioni',
-  'bc.ext.desc': "Sviluppo e pubblicazione di estensioni Business Central seguendo le best practice Microsoft e gli standard AppSource.",
+  'bc.ext.desc': "Sviluppo di estensioni Business Central seguendo il modello Microsoft — convenzioni di naming, gestione delle dipendenze e separazione netta dagli oggetti base.",
   'bc.int.title': 'Integrazioni',
   'bc.int.desc': "Integrazione di Business Central con servizi di terze parti, database esterni e applicazioni web personalizzate.",
   'bc.perf.title': 'Ottimizzazione Performance',
@@ -97,6 +97,7 @@ const it = {
   'projects.tag': 'Lavori',
   'projects.title': 'Progetti selezionati',
   'projects.open': 'Apri',
+  'projects.featured': 'In evidenza',
   'projects.type_web': 'web app',
   'projects.type_mobile': 'app mobile',
   'projects.p1.title': 'Portfolio personale',
@@ -105,11 +106,11 @@ const it = {
   'projects.p1.stat': 'questo sito',
   'projects.p2.title': 'rsa-schedule',
   'projects.p2.desc':
-    "Strumento di schedulazione dei turni per una struttura residenziale. I responsabili pianificano e visualizzano i turni per reparto. Front-end Next.js, API REST PHP, database MySQL.",
+    "Strumento di schedulazione turni per una struttura residenziale. La sfida principale è stata modellare template settimanali ricorrenti con override singoli ed eccezioni per festività. Front-end Next.js, API REST PHP, database MySQL.",
   'projects.p2.stat': '72 commit',
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
-    "App di produttività personale distribuita come app Android ibrida con Apache Cordova. Gestisce attività, routine e abitudini. Back-end REST Java, front-end web.",
+    "Un progetto personale dei primi tempi — app Android ibrida con Apache Cordova per gestire attività, routine e abitudini. Back-end REST Java, front-end web. Mostra il punto di partenza prima di passare agli stack moderni.",
   'projects.p3.stat': '62 commit',
 
   // Hobbies

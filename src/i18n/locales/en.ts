@@ -52,7 +52,7 @@ const en = {
   'exp.job1.period': '2023 – Present',
   'exp.job1.location': "Sant'Albano Stura, CN",
   'exp.job1.desc':
-    'Working on So Smart, a cloud ERP solution built on Microsoft Dynamics 365 Business Central. Responsibilities include AL development, Business Central extension customization, REST API design, system integrations, performance optimization and technical documentation. Also building full-stack web applications for clients using React, TypeScript and Node.js.',
+    'I work on So Smart, a cloud ERP built on Microsoft Dynamics 365 Business Central. Day to day I write AL extensions — table and page customizations, codeunits, event subscribers — and design REST APIs and OData endpoints that connect Business Central with external systems. I also profile and fix slow AL code and SQL queries, write technical documentation, and build full-stack web applications for clients using React, TypeScript and Node.js.',
   'exp.job2.role': 'Developer',
   'exp.job2.company': 'EOS Online SPA',
   'exp.job2.period': '2022 – 2023',
@@ -81,11 +81,11 @@ const en = {
   'bc.title': 'Business Central Expertise',
   'bc.intro': 'Day-to-day work on a production cloud ERP used by enterprise clients.',
   'bc.al.title': 'AL Development',
-  'bc.al.desc': 'Writing AL code for Business Central extensions — from UI customizations to complex business logic and event subscribers.',
+  'bc.al.desc': 'Writing AL extensions for Business Central — table and page extensions, codeunits, report layouts and event subscribers for complex business logic.',
   'bc.api.title': 'APIs & OData',
-  'bc.api.desc': 'Designing and consuming REST APIs and OData web services to connect Business Central with external systems.',
+  'bc.api.desc': 'Designing custom API pages, bound and unbound actions, and consuming OData web services to connect Business Central with external systems.',
   'bc.ext.title': 'Extensions',
-  'bc.ext.desc': 'Building and publishing Business Central extensions following Microsoft best practices and AppSource standards.',
+  'bc.ext.desc': "Building Business Central extensions following Microsoft's extension development model — object naming conventions, dependency management and clean separation from base app objects.",
   'bc.int.title': 'Integrations',
   'bc.int.desc': 'Integrating Business Central with third-party services, external databases and custom web applications.',
   'bc.perf.title': 'Performance Optimization',
@@ -97,6 +97,7 @@ const en = {
   'projects.tag': 'Work',
   'projects.title': 'Selected projects',
   'projects.open': 'Open',
+  'projects.featured': 'Featured',
   'projects.type_web': 'web app',
   'projects.type_mobile': 'mobile app',
   'projects.p1.title': 'Personal portfolio',
@@ -105,11 +106,11 @@ const en = {
   'projects.p1.stat': 'this site',
   'projects.p2.title': 'rsa-schedule',
   'projects.p2.desc':
-    'Shift scheduling tool for a residential care facility. Staff managers can plan and visualize shifts across departments. Next.js front-end, PHP REST API, MySQL database.',
+    'Shift scheduling tool for a residential care facility. The main challenge was modeling recurring weekly templates against one-off overrides and holiday exceptions. Next.js front-end, PHP REST API, MySQL database.',
   'projects.p2.stat': '72 commits',
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
-    'Personal productivity app packaged as a hybrid Android app with Apache Cordova. Manages tasks, routines and habits. Java REST back-end, web front-end.',
+    'An early personal project — a hybrid Android app built with Apache Cordova for tracking tasks, routines and habits. Java REST back-end, web front-end. Shows where I started before moving to modern stacks.',
   'projects.p3.stat': '62 commits',
 
   // Hobbies

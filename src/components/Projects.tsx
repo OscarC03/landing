@@ -25,28 +25,31 @@ export default function Projects() {
       repo: 'OscarC03/landing',
       title: t('projects.p1.title'),
       description: t('projects.p1.desc'),
-      tags: ['React', 'TypeScript', 'Tailwind CSS'],
+      tags: ['React', 'TypeScript', 'Tailwind CSS', 'GitHub Actions'],
       href: 'https://github.com/OscarC03/landing',
       stat: t('projects.p1.stat'),
       type: t('projects.type_web'),
+      featured: false,
     },
     {
       repo: 'OscarC03/rsa-schedule',
       title: t('projects.p2.title'),
       description: t('projects.p2.desc'),
-      tags: ['Next.js', 'TypeScript', 'PHP'],
+      tags: ['Next.js', 'TypeScript', 'PHP', 'MySQL', 'REST API'],
       href: 'https://github.com/OscarC03/rsa-schedule',
       stat: t('projects.p2.stat'),
       type: t('projects.type_web'),
+      featured: true,
     },
     {
       repo: 'OscarC03/DailyLife-App',
       title: t('projects.p3.title'),
       description: t('projects.p3.desc'),
-      tags: ['Apache Cordova', 'Java'],
+      tags: ['Apache Cordova', 'Java', 'REST API'],
       href: 'https://github.com/OscarC03/DailyLife-App',
       stat: t('projects.p3.stat'),
       type: t('projects.type_mobile'),
+      featured: false,
     },
   ]
 
@@ -67,11 +70,24 @@ export default function Projects() {
               href={p.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col rounded-lg bg-[#111827] border border-[#374151] hover:border-[#4B5563] transition-colors duration-150 overflow-hidden"
+              className={`group flex flex-col rounded-lg border transition-colors duration-150 overflow-hidden ${
+                p.featured
+                  ? 'bg-[#111827] border-[#10B981]/30 hover:border-[#10B981]/60'
+                  : 'bg-[#111827] border-[#374151] hover:border-[#4B5563]'
+              }`}
             >
               {/* Repo header */}
-              <div className="flex items-center justify-between px-4 py-3 border-b border-[#374151] bg-[#1F2937]">
-                <span className="font-mono text-xs text-[#6B7280] truncate">{p.repo}</span>
+              <div className={`flex items-center justify-between px-4 py-3 border-b ${
+                p.featured ? 'border-[#10B981]/20 bg-[#1F2937]' : 'border-[#374151] bg-[#1F2937]'
+              }`}>
+                <div className="flex items-center gap-2 min-w-0">
+                  <span className="font-mono text-xs text-[#6B7280] truncate">{p.repo}</span>
+                  {p.featured && (
+                    <span className="flex-shrink-0 text-[10px] font-semibold px-1.5 py-0.5 rounded bg-[#10B981]/15 text-[#10B981] border border-[#10B981]/25 uppercase tracking-wider">
+                      {t('projects.featured')}
+                    </span>
+                  )}
+                </div>
                 <ExternalIcon />
               </div>
 
