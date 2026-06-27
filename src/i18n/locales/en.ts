@@ -78,13 +78,16 @@ const en = {
   'projects.open': 'Open',
   'projects.p1.title': 'Personal portfolio',
   'projects.p1.desc':
-    'This very site! Built with React, TypeScript and Tailwind CSS. Dark design with violet accents and IT/EN multilingual support.',
+    'This site. Built with React, TypeScript and Tailwind CSS. Dark design with IT/EN language switching.',
+  'projects.p1.stat': 'this site',
   'projects.p2.title': 'rsa-schedule',
   'projects.p2.desc':
-    'Full-stack scheduling web app built with Next.js, TypeScript and PHP. 72 commits, complete context documentation.',
+    'Full-stack scheduling app built with Next.js, TypeScript and PHP. Complete context documentation.',
+  'projects.p2.stat': '72 commits',
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
-    'Hybrid mobile app (Apache Cordova) with Java back-end and web front-end. Manages daily tasks and routines. 62 commits.',
+    'Hybrid mobile app (Apache Cordova) with Java back-end and web front-end. Manages daily tasks and routines.',
+  'projects.p3.stat': '62 commits',
 
   // Hobbies
   'hobbies.tag': 'Outside of work',
