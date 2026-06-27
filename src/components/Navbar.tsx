@@ -14,17 +14,17 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-zinc-950 border-b border-zinc-800">
-      <span className="text-white font-semibold tracking-tight text-lg">
-        Oscar<span className="text-amber-400">.</span>
+    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3.5 bg-[#0B1220] border-b border-[#374151]">
+      <span className="text-[#F9FAFB] font-semibold tracking-tight text-base">
+        Oscar<span className="text-[#10B981]">.</span>
       </span>
 
-      <ul className="hidden md:flex gap-8">
+      <ul className="hidden md:flex gap-7">
         {links.map(l => (
           <li key={l.href}>
             <a
               href={l.href}
-              className="text-zinc-400 hover:text-white transition-colors text-sm font-medium"
+              className="text-[#D1D5DB] hover:text-[#F9FAFB] transition-colors duration-150 text-sm font-medium"
             >
               {l.label}
             </a>
@@ -33,15 +33,15 @@ export default function Navbar() {
       </ul>
 
       <div className="flex items-center gap-3">
-        <div className="flex items-center gap-1 bg-zinc-900 border border-zinc-800 rounded-lg p-1">
+        <div className="flex items-center gap-0.5 bg-[#111827] border border-[#374151] rounded-lg p-1">
           {(['it', 'en'] as const).map(lang => (
             <button
               key={lang}
               onClick={() => i18n.changeLanguage(lang)}
-              className={`px-2.5 py-1 rounded-md text-xs font-semibold uppercase tracking-wider transition-all ${
+              className={`px-2.5 py-1 rounded-md text-xs font-semibold uppercase tracking-wider transition-all duration-150 ${
                 currentLang === lang
-                  ? 'bg-amber-500 text-zinc-950'
-                  : 'text-zinc-500 hover:text-zinc-300'
+                  ? 'bg-[#10B981] text-[#0B1220]'
+                  : 'text-[#6B7280] hover:text-[#D1D5DB]'
               }`}
             >
               {lang}
@@ -51,7 +51,7 @@ export default function Navbar() {
 
         <a
           href="#contact"
-          className="hidden sm:block text-sm font-medium px-4 py-2 rounded-lg bg-amber-500 hover:bg-amber-400 text-zinc-950 transition-colors"
+          className="hidden sm:block text-sm font-medium px-4 py-2 rounded-lg bg-[#10B981] hover:bg-[#34D399] text-[#0B1220] transition-colors duration-150"
         >
           {t('nav.cta')}
         </a>

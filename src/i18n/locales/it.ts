@@ -14,20 +14,20 @@ const it = {
   'hero.role': 'Front-end · Mobile · Back-end Developer',
   'hero.location': 'Piemonte, Italia',
   'hero.description':
-    'Software Engineer con anni di esperienza nel costruire applicazioni web e mobile scalabili. React-TypeScript lover, C# addict. Parte del team EOS Solutions Group.',
+    "Software Engineer presso EOS Solutions Group. Sviluppo applicazioni web e mobile personalizzate per clienti enterprise nell'ecosistema Microsoft Dynamics 365. Stack quotidiano: React, TypeScript, C#, .NET.",
   'hero.cta_projects': 'Vedi i miei progetti',
   'hero.cta_contact': 'Contattami',
   'hero.scroll': 'Scorri',
 
   // About
   'about.tag': 'Chi sono',
-  'about.title': 'Un developer piemontese con la passione per il codice',
+  'about.title': 'Piemonte, sviluppo software dal 2017',
   'about.p1':
-    "Mi chiamo Oscar Cristaudo, sono nato a Carmagnola (TO) e vivo tra Garessio e Sant'Albano Stura, in provincia di Cuneo — nel cuore del Piemonte.",
+    "Mi chiamo Oscar Cristaudo. Sono di Carmagnola (TO) e vivo tra Garessio e Sant'Albano Stura, in provincia di Cuneo.",
   'about.p2':
-    "Ho iniziato a programmare all'IIS G. Vallauri di Fossano, uno degli istituti tecnici informatici più rinomati del Piemonte, dove ho ottenuto il diploma nel 2022.",
+    "Ho imparato a programmare all'IIS G. Vallauri di Fossano — uno dei più tecnici istituti informatici del Piemonte — dove mi sono diplomato nel 2022.",
   'about.p3':
-    "Oggi lavoro come Software Engineer presso EOS Solutions Group, leader mondiale nelle soluzioni Microsoft Dynamics 365, sviluppando applicazioni web e mobile personalizzate per le PMI.",
+    "Lavoro presso EOS Solutions Group, sviluppando applicazioni web e mobile per clienti PMI sulla piattaforma Microsoft Dynamics 365.",
   'about.cta': 'Parliamo',
   'about.stat_exp': '8+',
   'about.stat_exp_label': 'Anni di codice',
@@ -57,13 +57,13 @@ const it = {
   'exp.job2.period': '2022 – 2023',
   'exp.job2.location': 'Cuneo, CN',
   'exp.job2.desc':
-    "Sviluppo di soluzioni software per clienti aziendali. Primo impiego professionale subito dopo il diploma, nell'orbita del Gruppo EOS Solutions.",
+    "Sviluppo di soluzioni software per clienti aziendali. Primo impiego professionale dopo il diploma, nel Gruppo EOS Solutions.",
   'exp.edu.role': 'Diploma Tecnico Informatico',
   'exp.edu.company': 'IIS G. Vallauri',
   'exp.edu.period': '2017 – 2022',
   'exp.edu.location': 'Fossano, CN',
   'exp.edu.desc':
-    "Percorso quinquennale in informatica e telecomunicazioni presso uno degli istituti tecnici più rinomati del Piemonte. Acquisizione di solide basi in programmazione, reti, sistemi e sviluppo software.",
+    "Percorso quinquennale in informatica e telecomunicazioni. Programmazione, reti, sistemi e sviluppo software.",
 
   // Skills
   'skills.tag': 'Competenze',
@@ -76,17 +76,19 @@ const it = {
   'projects.tag': 'Lavori',
   'projects.title': 'Progetti selezionati',
   'projects.open': 'Apri',
+  'projects.type_web': 'web app',
+  'projects.type_mobile': 'app mobile',
   'projects.p1.title': 'Portfolio personale',
   'projects.p1.desc':
-    'Questo sito. Costruito con React, TypeScript e Tailwind CSS. Design dark con supporto multilingue IT/EN.',
+    'Questo sito. React, TypeScript, Tailwind CSS. Deploy su GitHub Pages con workflow CI/CD. Supporto italiano e inglese.',
   'projects.p1.stat': 'questo sito',
   'projects.p2.title': 'rsa-schedule',
   'projects.p2.desc':
-    "Web app di schedulazione full-stack con Next.js, TypeScript e PHP. Documentazione di contesto completa.",
+    "App di schedulazione per una struttura residenziale. Full-stack: front-end Next.js, back-end REST PHP, database MySQL.",
   'projects.p2.stat': '72 commit',
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
-    "App mobile ibrida (Apache Cordova) con back-end Java e front-end web. Gestione di attività e routine quotidiane.",
+    "App mobile ibrida con Apache Cordova e back-end Java. Gestione di attività e routine quotidiane.",
   'projects.p3.stat': '62 commit',
 
   // Hobbies
@@ -97,9 +99,9 @@ const it = {
   'hobbies.anpas.title': 'Croce Bianca Garessio',
   'hobbies.anpas.subtitle': 'Soccorritore · Istruttore IVS 118',
   'hobbies.anpas.desc':
-    'Faccio parte della Croce Bianca di Garessio, associazione di pubblica assistenza affiliata ANPAS. Sono soccorritore volontario e Istruttore IVS 118 certificato: formo nuovi volontari soccorritori e partecipo alle gare interregionali di soccorso sanitario.',
+    "Soccorritore volontario alla Croce Bianca di Garessio, affiliata ANPAS. Istruttore IVS 118 certificato: formo nuovi volontari sui protocolli di emergenza e rappresento la squadra nelle gare interregionali di soccorso.",
   'hobbies.anpas.ivs': 'Istruttore IVS 118',
-  'hobbies.anpas.ivs_desc': 'Certificazione ANPAS che abilita alla formazione di nuovi soccorritori volontari nel sistema 118',
+  'hobbies.anpas.ivs_desc': 'Certificazione ANPAS per la formazione di nuovi soccorritori volontari nel sistema 118',
   'hobbies.anpas.award': 'Miglior Team Leader',
   'hobbies.anpas.award_event': 'Asti Rescue Game 2025',
   'hobbies.anpas.results_title': 'Risultati in gara',
@@ -111,18 +113,18 @@ const it = {
   'hobbies.photo.label': 'Creatività',
   'hobbies.photo.title': 'Fotografia & Video',
   'hobbies.photo.desc':
-    'Catturare momenti, paesaggi e storie attraverso la fotografia e la videoripresa. Dai panorami delle valli cuneesi ai contenuti digitali.',
+    'Paesaggi, ritratti e momenti quotidiani nelle valli cuneesi e non solo.',
 
   'hobbies.travel.label': 'Esplorazione',
   'hobbies.travel.title': 'Viaggi',
   'hobbies.travel.desc':
-    'Esplorare nuovi luoghi, culture e tradizioni. Il Piemonte è una base di partenza perfetta per avventure in Italia e in Europa.',
+    "Scoprire nuovi posti e culture. Il Piemonte è un buon punto di partenza per l'Italia e l'Europa.",
 
   // Contact
   'contact.tag': 'Contatti',
   'contact.title': 'Parliamo',
   'contact.description':
-    'Hai un progetto in mente, una collaborazione da proporre o vuoi semplicemente fare una chiacchierata? Ecco come trovarmi.',
+    'Disponibile per richieste di progetto, collaborazioni e nuove opportunità. Scegli un canale qui sotto.',
 
   // Footer
   'footer.location': 'Garessio, Cuneo',

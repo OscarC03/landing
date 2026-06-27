@@ -14,20 +14,20 @@ const en = {
   'hero.role': 'Front-end · Mobile · Back-end Developer',
   'hero.location': 'Piedmont, Italy',
   'hero.description':
-    'Software Engineer with years of experience building scalable web and mobile applications. React-TypeScript lover, C# addict. Part of the EOS Solutions Group team.',
+    'Software Engineer at EOS Solutions Group. I build custom web and mobile applications for enterprise clients within the Microsoft Dynamics 365 ecosystem. Day-to-day stack: React, TypeScript, C#, .NET.',
   'hero.cta_projects': 'See my projects',
   'hero.cta_contact': 'Get in touch',
   'hero.scroll': 'Scroll',
 
   // About
-  'about.tag': 'About me',
-  'about.title': 'A Piedmontese developer with a passion for code',
+  'about.tag': 'About',
+  'about.title': 'Based in Piedmont, building software since 2017',
   'about.p1':
-    "My name is Oscar Cristaudo, born in Carmagnola (TO) and living between Garessio and Sant'Albano Stura, in the province of Cuneo — in the heart of Piedmont, Italy.",
+    "My name is Oscar Cristaudo. I'm from Carmagnola (TO) and live between Garessio and Sant'Albano Stura, in the province of Cuneo.",
   'about.p2':
-    'I started coding at IIS G. Vallauri in Fossano, one of the most renowned technical IT schools in Piedmont, where I graduated in 2022.',
+    'I learned to code at IIS G. Vallauri in Fossano — one of the most technical IT schools in Piedmont — and graduated in 2022.',
   'about.p3':
-    'I now work as a Software Engineer at EOS Solutions Group, a world leader in Microsoft Dynamics 365 solutions, building custom web and mobile applications for SMEs.',
+    'I now work at EOS Solutions Group, building web and mobile applications for SME clients on top of Microsoft Dynamics 365.',
   'about.cta': "Let's talk",
   'about.stat_exp': '8+',
   'about.stat_exp_label': 'Years coding',
@@ -57,13 +57,13 @@ const en = {
   'exp.job2.period': '2022 – 2023',
   'exp.job2.location': 'Cuneo, CN',
   'exp.job2.desc':
-    'Software development for enterprise clients. First professional role right after graduating, within the EOS Solutions Group orbit.',
+    'Software development for enterprise clients. First professional role after graduating, within the EOS Solutions Group.',
   'exp.edu.role': 'IT Technical Diploma',
   'exp.edu.company': 'IIS G. Vallauri',
   'exp.edu.period': '2017 – 2022',
   'exp.edu.location': 'Fossano, CN',
   'exp.edu.desc':
-    "Five-year course in computer science and telecommunications at one of Piedmont's most renowned technical institutes. Solid foundations in programming, networking, systems and software development.",
+    "Five-year program in computer science and telecommunications. Covered programming, networking, systems, and software development.",
 
   // Skills
   'skills.tag': 'Expertise',
@@ -76,17 +76,19 @@ const en = {
   'projects.tag': 'Work',
   'projects.title': 'Selected projects',
   'projects.open': 'Open',
+  'projects.type_web': 'web app',
+  'projects.type_mobile': 'mobile app',
   'projects.p1.title': 'Personal portfolio',
   'projects.p1.desc':
-    'This site. Built with React, TypeScript and Tailwind CSS. Dark design with IT/EN language switching.',
+    'This site. React, TypeScript, Tailwind CSS. Deployed to GitHub Pages with a CI/CD workflow. Supports Italian and English.',
   'projects.p1.stat': 'this site',
   'projects.p2.title': 'rsa-schedule',
   'projects.p2.desc':
-    'Full-stack scheduling app built with Next.js, TypeScript and PHP. Complete context documentation.',
+    'Staff scheduling app for a residential care facility. Full-stack: Next.js front-end, PHP REST back-end, MySQL database.',
   'projects.p2.stat': '72 commits',
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
-    'Hybrid mobile app (Apache Cordova) with Java back-end and web front-end. Manages daily tasks and routines.',
+    'Hybrid mobile app built with Apache Cordova and a Java back-end. Tracks daily tasks and personal routines.',
   'projects.p3.stat': '62 commits',
 
   // Hobbies
@@ -97,9 +99,9 @@ const en = {
   'hobbies.anpas.title': 'Croce Bianca Garessio',
   'hobbies.anpas.subtitle': 'First Responder · IVS 118 Instructor',
   'hobbies.anpas.desc':
-    "I'm part of the Croce Bianca of Garessio, a public aid association affiliated with ANPAS. I'm a volunteer first responder and certified IVS 118 Instructor: I train new volunteer rescuers and compete in interregional emergency rescue competitions.",
+    "Volunteer first responder at Croce Bianca Garessio, affiliated with ANPAS. Certified IVS 118 Instructor: I train new volunteers in emergency response protocols and represent the team at interregional rescue competitions.",
   'hobbies.anpas.ivs': 'IVS 118 Instructor',
-  'hobbies.anpas.ivs_desc': 'ANPAS certification enabling the training of new volunteer rescuers within the 118 emergency system',
+  'hobbies.anpas.ivs_desc': 'ANPAS certification for training new volunteer rescuers in the 118 emergency system',
   'hobbies.anpas.award': 'Best Team Leader',
   'hobbies.anpas.award_event': 'Asti Rescue Game 2025',
   'hobbies.anpas.results_title': 'Competition results',
@@ -111,18 +113,18 @@ const en = {
   'hobbies.photo.label': 'Creativity',
   'hobbies.photo.title': 'Photography & Video',
   'hobbies.photo.desc':
-    'Capturing moments, landscapes and stories through photography and video. From the valleys of Cuneo to digital content creation.',
+    'Shooting landscapes, portraits, and everyday moments in the Cuneo valleys and beyond.',
 
   'hobbies.travel.label': 'Exploration',
   'hobbies.travel.title': 'Travel',
   'hobbies.travel.desc':
-    'Exploring new places, cultures and traditions. Piedmont is a perfect base for adventures across Italy and Europe.',
+    'Discovering new places and cultures. Piedmont makes a good base for trips across Italy and Europe.',
 
   // Contact
   'contact.tag': 'Contact',
   'contact.title': "Let's talk",
   'contact.description':
-    "Have a project in mind, a collaboration to propose, or just want to chat? Here's how to reach me.",
+    'Open to project inquiries, collaborations, and new opportunities. Pick a channel below.',
 
   // Footer
   'footer.location': 'Garessio, Cuneo — Italy',
