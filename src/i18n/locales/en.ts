@@ -4,6 +4,7 @@ const en = {
   'nav.skills': 'Skills',
   'nav.experience': 'Experience',
   'nav.projects': 'Projects',
+  'nav.hobbies': 'Hobbies',
   'nav.contact': 'Contact',
   'nav.cta': 'Get in touch',
 
@@ -84,6 +85,33 @@ const en = {
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
     'Hybrid mobile app (Apache Cordova) with Java back-end and web front-end. Manages daily tasks and routines. 62 commits.',
+
+  // Hobbies
+  'hobbies.tag': 'Outside of work',
+  'hobbies.title': 'Hobbies & Interests',
+
+  'hobbies.anpas.label': 'Volunteering',
+  'hobbies.anpas.title': 'Croce Bianca Garessio',
+  'hobbies.anpas.subtitle': 'ANPAS volunteer first responder',
+  'hobbies.anpas.desc':
+    "I'm part of the Croce Bianca of Garessio, a public aid association affiliated with ANPAS. As a volunteer first responder I participate in local shifts and interregional emergency rescue competitions.",
+  'hobbies.anpas.award': 'Best Team Leader',
+  'hobbies.anpas.award_event': 'Asti Rescue Game 2025',
+  'hobbies.anpas.results_title': 'Competition results',
+  'hobbies.anpas.r1': '3rd place — Asti Rescue Game 2025',
+  'hobbies.anpas.r2': '3rd place — AVSD Day Dogliani 2025',
+  'hobbies.anpas.r3': '3rd place — Asti Rescue Game 2026',
+  'hobbies.anpas.r4': '3rd place — AVSD Day Dogliani 2026',
+
+  'hobbies.photo.label': 'Creativity',
+  'hobbies.photo.title': 'Photography & Video',
+  'hobbies.photo.desc':
+    'Capturing moments, landscapes and stories through photography and video. From the valleys of Cuneo to digital content creation.',
+
+  'hobbies.travel.label': 'Exploration',
+  'hobbies.travel.title': 'Travel',
+  'hobbies.travel.desc':
+    'Exploring new places, cultures and traditions. Piedmont is a perfect base for adventures across Italy and Europe.',
 
   // Contact
   'contact.tag': 'Contact',

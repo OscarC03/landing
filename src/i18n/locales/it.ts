@@ -4,6 +4,7 @@ const it = {
   'nav.skills': 'Skills',
   'nav.experience': 'Esperienza',
   'nav.projects': 'Progetti',
+  'nav.hobbies': 'Hobby',
   'nav.contact': 'Contatti',
   'nav.cta': 'Contattami',
 
@@ -84,6 +85,33 @@ const it = {
   'projects.p3.title': 'DailyLife App',
   'projects.p3.desc':
     "App mobile ibrida (Apache Cordova) con back-end Java e front-end web. Gestione di attività e routine quotidiane. 62 commit.",
+
+  // Hobbies
+  'hobbies.tag': 'Fuori dal lavoro',
+  'hobbies.title': 'Hobby & Interessi',
+
+  'hobbies.anpas.label': 'Volontariato',
+  'hobbies.anpas.title': 'Croce Bianca Garessio',
+  'hobbies.anpas.subtitle': 'Soccorritore volontario ANPAS',
+  'hobbies.anpas.desc':
+    'Faccio parte della Croce Bianca di Garessio, associazione di pubblica assistenza affiliata ANPAS. Come soccorritore volontario partecipo ai turni sul territorio e alle gare interregionali di soccorso sanitario.',
+  'hobbies.anpas.award': 'Miglior Team Leader',
+  'hobbies.anpas.award_event': 'Asti Rescue Game 2025',
+  'hobbies.anpas.results_title': 'Risultati in gara',
+  'hobbies.anpas.r1': '3° posto — Asti Rescue Game 2025',
+  'hobbies.anpas.r2': '3° posto — AVSD Day Dogliani 2025',
+  'hobbies.anpas.r3': '3° posto — Asti Rescue Game 2026',
+  'hobbies.anpas.r4': '3° posto — AVSD Day Dogliani 2026',
+
+  'hobbies.photo.label': 'Creatività',
+  'hobbies.photo.title': 'Fotografia & Video',
+  'hobbies.photo.desc':
+    'Catturare momenti, paesaggi e storie attraverso la fotografia e la videoripresa. Dai panorami delle valli cuneesi ai contenuti digitali.',
+
+  'hobbies.travel.label': 'Esplorazione',
+  'hobbies.travel.title': 'Viaggi',
+  'hobbies.travel.desc':
+    'Esplorare nuovi luoghi, culture e tradizioni. Il Piemonte è una base di partenza perfetta per avventure in Italia e in Europa.',
 
   // Contact
   'contact.tag': 'Contatti',
