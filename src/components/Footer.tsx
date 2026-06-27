@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next'
+
 export default function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer className="bg-zinc-950 border-t border-zinc-900 py-8 px-6">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -6,7 +10,7 @@ export default function Footer() {
           Oscar<span className="text-violet-400">.</span>
         </span>
         <p className="text-zinc-600 text-sm">
-          © {new Date().getFullYear()} Oscar Cristaudo — Garessio, Cuneo
+          © {new Date().getFullYear()} {t('footer.rights')} — {t('footer.location')}
         </p>
         <a
           href="https://www.instagram.com/cristaudooscar"
